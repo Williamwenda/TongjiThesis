@@ -34,7 +34,6 @@
 本人使用Texlive2017发行版，xelatex 可以编译通过。
 
 注：
-1. 我照抄了清华版的Makefile，因此可以直接在命令行使用`make thesis`进行全自动编译（默认使用 latexmk 的方式生成 pdf，latexmk仍然调用xelatex）。在类Unix系统上很容易安装make命令。在windows系统上可以安装MinGW（装好之后，打开并安装最简明核心的`msys-base`，然后将其bin目录加到path中，如我的bin目录是 `C:\tools\mingw\msys\1.0\bin`，这样就能在 `cmd` 中使用 `make` 了）。另外，用latexmk貌似比较慢啊。
-1. 如果提示缺少某字体，请自行下载安装到系统中（如果你用的是windows系统，可以搜索中易的对应字体下载，如中易隶书）。
-1. 原则上pdflatex,lualatex都可以编译，但目测由于字体问题无法编译通过。暂时不管这个问题了，反正xelatex用着很爽。
+本人参照侯博同济大学LaTex模板对毕业论文进行了排版，作为模板测试。发现了一两个小Bug，并给出了解决方案。详细解决方案参见
+最新Tongji Thesis Template
 
